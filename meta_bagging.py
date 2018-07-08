@@ -39,7 +39,8 @@ class MetaBagging:
         :param weak_learner: list
             Parameters of the weak learner:
                 List[0]: string
-                    Name of the model from SKLearn library (ex: "RandomForestRegressor") - Class must be imported by "from x import y"
+                    Name of the model with SKLearn object structure library (ex: "RandomForestRegressor" or "XGBClassifier")
+                    Class must be imported by "from x import y"
                 List[1]: dict
                     Parameters of the model (ex: {'nb_estimators': 10})
                 List[2]: dict
